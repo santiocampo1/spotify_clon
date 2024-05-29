@@ -35,7 +35,7 @@ To get a local copy of the project up and running, follow these steps:
 
 4. Start the development server: `npm start`
 
-5. Open your browser and navigate to `http://localhost:4321l` to see the application.
+5. Open your browser and navigate to `http://localhost:4321` to see the application.
 
 ## Contributing
 
