@@ -37,6 +37,10 @@ To get a local copy of the project up and running, follow these steps:
 
 5. Open your browser and navigate to `http://localhost:4321` to see the application. 🌐
 
+## Deployment 🚀
+
+This project will be deployed proximately to a hosting platform like GitHub Pages, Netlify, or Vercel. The deployment process will depend on the platform chosen. 🔜
+
 ## Contributing 🤝
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request. 📥
