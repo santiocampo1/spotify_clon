@@ -55,7 +55,7 @@ const SongControl = ({ audio }) => {
 
     const formatTime = time => {
         if (time === 0) return '00:00';
-        
+
         const seconds = Math.floor(time % 60);
         const minutes = Math.floor(time / 60);
         return `${minutes}:${seconds.toString().padStart(2, '0')}`; // 1 --> 01 
@@ -65,18 +65,18 @@ const SongControl = ({ audio }) => {
 
     return (
         <div className='flex gap-x-3 text-xs pt-2'>
-            <span className='opacity-50'>{formatTime(currentTime)}</span>
+            <span className='opacity-50 w-12 text-right'>{formatTime(currentTime)}</span>
             <Slider
                 defaultValue={[0]}
                 value={[currentTime]}
                 max={audio?.current?.duration ?? 0}
                 min={0}
-                className='w-[500px]'
+                className='w-[400px]'
                 onValueChange={(value) => {
                     audio.current.currentTime = value;
                 }}
             />
-           <span className='opacity-50'>{formatTime(duration)}</span>
+            <span className='opacity-50 w-12'>{duration ? formatTime(duration) : '0:00' }</span>
         </div>
     )
 }
@@ -156,8 +156,8 @@ const Player = () => {
 
 
     return (
-        <div className="flex flex-row justify-between w-full px-4 z-50">
-            <div>
+        <div className="flex flex-row justify-between w-full px-1 z-50">
+            <div className='w-[250px]'>
                 <CurrentSong {...currentMusic.song} />
             </div>
 
