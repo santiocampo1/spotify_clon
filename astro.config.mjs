@@ -1,8 +1,9 @@
 import { defineConfig } from 'astro/config';
 import tailwind from "@astrojs/tailwind";
 import svelte from "@astrojs/svelte";
-
 import react from "@astrojs/react";
+
+import netlify from "@astrojs/netlify";
 
 // https://astro.build/config
 export default defineConfig({
@@ -10,5 +11,6 @@ export default defineConfig({
   devToolbar: {
     enabled: false
   },
-  output: 'server'
+  output: 'server',
+  adapter: netlify()
 });
