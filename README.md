@@ -1,6 +1,6 @@
 # Spotify Clone 🎵
 
-[![Work in Progress](https://img.shields.io/badge/Status-Work%20in%20Progress-yellow.svg)](https://shields.io/)
+[![Deployed](https://img.shields.io/badge/Status-Deployed-brightgreen.svg)](https://shields.io/)
 
 This project aims to create a clone of the popular music streaming platform, Spotify 💿. The goal is to replicate the core features and functionalities of Spotify, providing users with a similar experience 🎧.
 
@@ -39,7 +39,7 @@ To get a local copy of the project up and running, follow these steps:
 
 ## Deployment 🚀
 
-This project will be deployed proximately to a hosting platform like GitHub Pages, Netlify, or Vercel. The deployment process will depend on the platform chosen. 🔜
+This project is deployed on Netlify and can be accessed at [https://songplayerclone.netlify.app](https://songplayerclone.netlify.app).
 
 ## Contributing 🤝
 
